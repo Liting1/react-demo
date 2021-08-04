@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Consumer } from './store'
+import SideActionBar from "./components/SideActionBar";
+import Preview from "./components/Preview";
+import Setting from "./components/Setting";
 import './App.css';
+// import config from './config';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+interface Props {
+    store: object
+}
+interface State {
+
 }
 
-export default App;
+class App extends React.PureComponent<Props, State> {
+
+    componentDidMount() {
+    }
+
+    render() {
+        return (
+            <div className="app">
+                <SideActionBar />
+                <Preview />
+                <Setting />
+            </div>
+        );
+    }
+}
+
+export default Consumer(App);

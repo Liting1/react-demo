@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8dbed7d-c954-4879-a295-e6843f92d5fa" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Drag/Item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drag/drap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drag/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Drag/item.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HOC/PropsDeepOptimize/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Preview/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Preview/preview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Setting/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Setting/setting.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SideActionBar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SideActionBar/sideActionBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Placeholder/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Title/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/PlaceholderSetting/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/TitleSetting/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/componentConfig/commonConfig/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/componentConfig/imageConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/componentConfig/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/componentConfig/placeholderConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/componentConfig/titleConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/action/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/data/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/const/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/utilsFn.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vaBw6vs52no9mDNhZ6rVNkqWhP" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../zkt/copy/zhida-customize-snapshot" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="ts.external.directory.path" value="E:\web\react\react-demo4\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\web\react\react-demo4\src\config\componentConfig\commonConfig" />
+      <recent name="E:\web\react\react-demo4\src\store\data" />
+      <recent name="E:\web\react\react-demo4\src\store\action" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e8dbed7d-c954-4879-a295-e6843f92d5fa" name="默认变更列表" comment="" />
+      <created>1626790555298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626790555298</updated>
+      <workItem from="1626790559444" duration="1474000" />
+      <workItem from="1626861446931" duration="1227000" />
+      <workItem from="1626872330951" duration="1909000" />
+      <workItem from="1626935425632" duration="14024000" />
+      <workItem from="1627003432843" duration="23907000" />
+      <workItem from="1627043249860" duration="5863000" />
+      <workItem from="1627111500904" duration="10019000" />
+      <workItem from="1627263326005" duration="2943000" />
+      <workItem from="1627366408644" duration="12090000" />
+      <workItem from="1627390161158" duration="5748000" />
+      <workItem from="1627437512990" duration="8124000" />
+      <workItem from="1627724367122" duration="511000" />
+      <workItem from="1627981265297" duration="602000" />
+      <workItem from="1628082262920" duration="1042000" />
+      <workItem from="1628083728698" duration="4818000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
