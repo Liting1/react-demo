@@ -1,5 +1,5 @@
 // import { CUSTOMIZE_LINK_WEBVIEW_CODE } from '../../utils/const';
-import { ComponentConfig } from './commonConfig'
+import { ComponentConfig } from './commonType'
 
 interface Content {
     image: string,
@@ -55,9 +55,7 @@ function getImageConfig(theme:string = 'default') {
     return imageConfig
 }
 
-export {
-    getImageConfig
-};
+export default getImageConfig;
 
 export type { Content };
 

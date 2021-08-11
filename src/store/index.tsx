@@ -1,6 +1,8 @@
 import React from "react";
 import store from './data/store';
-import actions from './action';
+import actions from './actions';
+// import getters from './getters';
+
 const StoreContext = React.createContext(null);
 
 interface Props {
@@ -43,8 +45,12 @@ const Consumer = (Component:any) => {
 }
 
 
-// @ts-ignore
-const mapAction = (key: string) => Provider.action[key];
+const mapAction = (key?: string) => {
+    // @ts-ignore
+    if(key) return Provider.action[key];
+    return Provider.action;
+};
+
 const setStore = (val: object) => Provider.setStore(val);
 
 export { Provider, Consumer, mapAction, setStore }

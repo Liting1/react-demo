@@ -13,7 +13,7 @@ interface State {
 class Preview extends React.PureComponent<Props, State> {
 
     componentDidMount() {
-        console.log('test', this.props)
+        // console.log('test', this.props)
     }
 
     renderComponentList(){
@@ -24,13 +24,15 @@ class Preview extends React.PureComponent<Props, State> {
             const Com = CustomComponents[component.type];
             return <Drag.Item
                 itemId={component.itemId}
-                key={idx}><Com config={component}/></Drag.Item>
+                type={component.type}
+                index={idx}
+                key={idx}><Com env="eb" {...component}/></Drag.Item>
         })
     }
 
     render() {
         return <div className="preview">
-            <h2>Preview Component</h2>
+            <header>页面头部</header>
            <div>
                <Drag>
                    { this.renderComponentList() }

@@ -17,19 +17,8 @@ const data:Data = {
         name: '标题组件',
         index: 0
     },
-    modules: [{
-        type: 'Title',
-        content: [],
-        itemId: '123456'
-    }, {
-        type: 'Placeholder',
-        height: 40,
-        itemId: '456789'
-    }, {
-        type: 'Image',
-        content: [],
-        itemId: "999999"
-    }]
+    modules: []
 }
+
 
 export default data;

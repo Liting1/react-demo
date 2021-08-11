@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# zkt-custom-page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 项目运行
+1. git clone  克隆下载项目到本地
 
-## Available Scripts
+2. npm install 下载项目依赖
 
-In the project directory, you can run:
+3. npm run start 运行开发环境
 
-### `yarn start`
+4. npm run build 打包生成生产环境
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 开发规范
 
-### `yarn test`
+## 项目目录结构
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+App
+|—— public                                  静态资源文件夹
+|   |—— index.html                          承载页面 
+|   |—— manifest.json
+|
+|-- src                                     代码资源目录
+|   |—— api                                 接口请求方法目录
+|   |—— components                          组件目录
+|   |   |—— baseComponents                  基础组件目录
+|   |   |—— customComponents                自定义Preview展示组件目录
+|   |   |—— customComponentsSetting         自定义Setting展示组件目录
+|   |   |—— Drag                            拖拽组件目录
+|   |   |—— HOC                             高阶组件目录
+|   |   |—— Preview                         Preview 组件目录
+|   |   |—— Setting                         Setting 组件目录
+|   |   |—— SideActionBar                   SideActionBar 组件目录
+|   |
+|   |—— config                              项目配置目录
+|   |   |—— compatibilityConfig             组件兼容性配置
+|   |   |—— componentConfig                 组件数据配置
+|   |   |—— componentDataInitConfig         组件初始化配置
+|   |   |—— environmentConfig               应用环境配置
+|   |   |—— FieldsVerifyConfig              组件字段验证
+|   |   |—— index.ts
+|   |   
+|   |—— css                                 css文件目录
+|   |   |—— reset.sass                      初始化样式文件
+|   |   |—— theme.sass                      主题样式文件
+|   |
+|   |—— main                                项目入口主流程逻辑处理目录
+|   |   |—— index.ts
+|   |—— store                               项目数据存储仓库目录
+|   |   |—— actions                         修改store存储数据方法目录
+|   |   |—— data                            store 初始数据存储目录
+|   |   |—— getters                         获取store 值的方法目录
+|   |   |—— index.tsx                       store 主文件
+|   |
+|   |—— type                                ts接口类型等定义目录
+|   |—— utils                               工具类目录
+|   |   |—— BundledActivity                 活动类商品处理类
+|   |   |—— const                           常量目录
+|   |   |—— Pass                            门票类商品处理类
+|   |   |—— PrepayCard                      储值卡商品处理类
+|   |   |—— Product                         预售券商品处理类
+|   |   |—— index.ts                        常用工具函数文件
+|   |   |—— common.ts                       通用工具函数文件
+|   |—— test                                开发测试目录
+|   |—— App.tsx
+|   |—— App.sass
+|   |—— index.tsx                           项目入口文件
+|   |—— setupProxy.js                       开发环境配置代理文件
+|
+|—— .gitignore
+|—— package.json
+|—— tsconfig.json                           ts配置文件
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```

@@ -1,9 +1,9 @@
-import { ComponentConfig } from './commonConfig';
+import { ComponentConfig } from './commonType';
 
 
 interface TitleUserConfig {
     position: string,
-    color: '#000000',
+    color: string,
     content: string,
     fontSize: number,
 }
@@ -27,6 +27,4 @@ function getTitleConfig (them:string = 'default'){
     return titleConfig
 }
 
-export {
-    getTitleConfig
-}
+export default getTitleConfig;

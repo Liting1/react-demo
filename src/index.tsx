@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import '../src/css/theme.sass';
+import '../src/css/reset.sass';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from './store';

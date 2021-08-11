@@ -1,4 +1,4 @@
-import { ComponentConfig } from './commonConfig';
+import { ComponentConfig } from './commonType';
 
 interface PlaceholderUserConfig {
     height: number
@@ -20,6 +20,4 @@ function getPlaceholderConfig(theme:string = 'default') {
     return placeholderConfig
 }
 
-export {
-    getPlaceholderConfig
-}
+export default getPlaceholderConfig;

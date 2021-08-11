@@ -19,17 +19,11 @@ class SideActionBar extends React.PureComponent<Props, State> {
         }
     }
 
-    componentDidMount() {
-        console.log('11111', this.state.componentConfig)
-    }
-
     handleClick(item: any){
         const { setStore } = this.props.store
         setStore((store:any) => {
-            console.log(store)
             return store
         })
-        console.log(item)
     }
     render() {
         return <div className="side-action-bar">

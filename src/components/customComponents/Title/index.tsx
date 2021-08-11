@@ -1,21 +1,23 @@
 import React from "react";
+import './index.sass'
 
 interface Props {
-    title: string
+    text: string
+    env: string
 }
 
 // 标题组件
 class Title extends React.Component<Props> {
     static defaultProps: {};
     render() {
-        return <div>
-            <h3>{this.props.title}</h3>
+        return <div className="component-title">
+            <h3>{this.props.text}</h3>
         </div>
     }
 }
 
 Title.defaultProps = {
-    title: '点击编辑【标题】'
+    text: '点击编辑【标题】'
 }
 
 export default Title;

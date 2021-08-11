@@ -16,7 +16,7 @@ class Setting extends React.PureComponent<Props, State> {
         const module = modules.find((item:any) => item.itemId === activeModule.itemId);
         // @ts-ignore
         const Com = componentSetting[`${activeModule.type}Setting`];
-        return <Com config={module}/>
+        return <Com {...module}/>
     }
 
     render() {
