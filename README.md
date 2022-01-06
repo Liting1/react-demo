@@ -1,4 +1,5 @@
 # zkt-custom-page
+自定义EB端配置分包
 
 ## 项目运行
 1. git clone  克隆下载项目到本地
@@ -11,6 +12,13 @@
 
 
 ## 开发规范
++ 请按照项目目录结构进行添加文件及文件夹
++ 具体规范请参考地址 https://git.zhiketong.net/Web/eslint-config-zkt
+
+### 约定
++ 组件类型是用大写字母开头
+    + 例如： Title, TabBar
+
 
 ## 项目目录结构
 
@@ -33,11 +41,8 @@ App
 |   |   |—— SideActionBar                   SideActionBar 组件目录
 |   |
 |   |—— config                              项目配置目录
-|   |   |—— compatibilityConfig             组件兼容性配置
 |   |   |—— componentConfig                 组件数据配置
-|   |   |—— componentDataInitConfig         组件初始化配置
 |   |   |—— environmentConfig               应用环境配置
-|   |   |—— FieldsVerifyConfig              组件字段验证
 |   |   |—— index.ts
 |   |   
 |   |—— css                                 css文件目录
@@ -45,6 +50,9 @@ App
 |   |   |—— theme.sass                      主题样式文件
 |   |
 |   |—— main                                项目入口主流程逻辑处理目录
+|   |   |—— FieldsVerify                    组件字段验证
+|   |   |—— componentDataInit               组件初始化处理
+|   |   |—— compatibility                   组件兼容性处理
 |   |   |—— index.ts
 |   |—— store                               项目数据存储仓库目录
 |   |   |—— actions                         修改store存储数据方法目录
@@ -72,3 +80,8 @@ App
 |—— tsconfig.json                           ts配置文件
 
 ```
+
+
+### 功能点
+
++ 样式布局

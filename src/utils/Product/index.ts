@@ -1,44 +1,56 @@
+
 /**
  * 预售券商品信息处理类
  */
 class Product {
-    private static instance: any;
-    private data: any;
+    private static instance: Product;
+    private readonly data: any;
+    // @ts-ignore
+    private product: Map<any, any>;
     constructor(data: any) {
-        if(Product.instance){
-            return Product.instance
-        }
+        if(Product.instance) return Product.instance;
         Product.instance = this;
-        this.data = data;
+        this.data = data || [];
+        this.init();
     }
 
-    add(){
-
+    private init() {
+        this.product = new Map();
+        this.data.forEach((item: any) => {
+            // @ts-ignore
+            this[item.productType] ? this[item.productType].set(item.productId, item) : this[item.productType] = new Map();
+            this.product.set(item.productId + item.productType, item);
+        });
     }
 
-    delete(){
-
+    add(product: any){
+        return this.product.set(product.productId+product.productType, product);
     }
 
-    remove(){
-
+    delete(key: any){
+        return this.product.delete(key);
     }
 
-    update(){
-
+    has(key:any){
+        return this.product.has(key);
     }
 
-    get(){
-
+    clear(){
+        this.product.clear();
     }
 
-    filter () {
-
+    get(key: any){
+        return this.product.get(key);
     }
 
-    classification(){
-
+    filter (key:string, val:any) {
+        const mapData = new Map();
+        this.product.forEach((item, key) => {
+            if(item[key] === val) mapData.set(key, item)
+        });
+        return mapData;
     }
+
 }
 
 export default Product

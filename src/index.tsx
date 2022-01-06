@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../src/css/theme.sass';
-import '../src/css/reset.sass';
+import './css/reset.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from './store';
+import 'antd/dist/antd.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Provider>
-      <App />
-    </Provider>
-  </React.StrictMode>,
+  <Provider>
+     <App />
+  </Provider>,
   document.getElementById('root')
 );
 

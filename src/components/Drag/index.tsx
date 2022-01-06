@@ -1,6 +1,7 @@
 import React from "react";
 import Sortablejs from 'sortablejs';
 import Item from './Item';
+import { mapAction } from '../../store';
 import './drap.css';
 
 interface Props {
@@ -26,11 +27,15 @@ class Drag extends React.PureComponent<Props, State> {
     }
 
     onStart(evt: Sortablejs.SortableEvent){
-
+        console.log(77777, evt);
     }
 
     onEnd(evt: Sortablejs.SortableEvent){
-
+        const {oldIndex, newIndex, item} = evt;
+        const { dragModule, setActiveModule } = mapAction();
+        if(oldIndex === newIndex) return;
+        dragModule(newIndex, oldIndex);
+        setActiveModule({top: item.offsetTop || 0});
     }
 
     render() {

@@ -1,6 +1,6 @@
 import axios from "axios";
 import { decodeAuthString, getQuery } from "../utils";
-import envConfig from '../config/environmentConfig'
+import envConfig from '../config/environmentConfig';
 
 const isDev = process.env.NODE_ENV === 'development';
 
@@ -16,8 +16,7 @@ const instance = axios.create({
 // 请求拦截配置
 instance.interceptors.request.use((req) => {
     const auth = decodeAuthString(localStorage.token);
-    if(!auth) throw Error('获取token失败');
-    const params = Object.assign(auth, getQuery());
+    const params = Object.assign({}, auth, getQuery());
     if(req.method === "get") {
        req.params = addParams(req.params, params);
     }
@@ -26,18 +25,25 @@ instance.interceptors.request.use((req) => {
         req.data = addParams(req.data, params)
     }
 
-    console.log('------拦截配置：', req)
+    console.log('请求拦截配置：', req)
     return req
 },  (error) => {
+    console.log(7777, error)
     return Promise.reject(error);
 });
+
+
+
 
 
 // 响应拦截
 instance.interceptors.response.use(function (res) {
     return res
-}, function (err) {
-    console.log('响应拦截：', err)
+}, (err) => {
+    if(err.response.status === 401) {
+        // alert('请重新登录');
+        console.log('响应拦截：', err.response)
+    }
     return Promise.reject(err);
 })
 

@@ -30,7 +30,7 @@ export function decodeAuthString (token: string) {
         let decoded = JSON.parse(str);
         return JSON.parse(decoded.params);
     } catch (e) {
-        console.log('decodeAuthString:', e)
+        console.log('decodeAuthString:', e);
         return false;
     }
 }
@@ -54,4 +54,8 @@ export function getQuery(key?:string){
     const params = urlFormat(window.location.search);
     if(key) return params[key] || '';
     return params;
+}
+
+export function u(url:string):string {
+    return `static/img/${url}`;
 }

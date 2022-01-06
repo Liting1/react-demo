@@ -1,56 +1,29 @@
-import React from 'react';
-import { Consumer } from './store'
-import SideActionBar from "./components/SideActionBar";
-import Preview from "./components/Preview";
-import Setting from "./components/Setting";
-import Main from "./main";
-import './App.sass';
-import { getCustomizeSnapshot } from './api/customPageApi';
-import { getQuery } from './utils'
+import React from "react";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+} from "react-router-dom";
+import Edit from "./page/Edit";
+import Home from "./page/Home";
+import Template from "./page/Template";
 
-interface Props {
-    store: any
-}
-interface State {
-
-}
-
-class App extends React.PureComponent<Props, State> {
-
-    componentDidMount() {
-        const query = getQuery();
-
-        if(query.type === 'custom') {
-            if(query.id) { // 自定义页面
-
-            } else if(query.template_id) { // 使用模板创建新的页面
-
-            } else { // 直接创建新的页面
-
-            }
-        }
-
-        const options: any = {};
-        getCustomizeSnapshot(15558).then(res => {
-            const mainHandle = new Main(res);
-            mainHandle.init(options);
-        });
-    }
-
-    customize(){
-
-    }
-
-    render() {
-        // 暂时测试写法
-        return (
-            <div className="app">
-                <SideActionBar />
-                <Preview />
-                <Setting />
-            </div>
-        );
-    }
+const App = () => {
+    return (
+        <Router>
+            <Switch>
+                <Route path="/Edit">
+                    <Edit />
+                </Route>
+                <Route path="/Template">
+                    <Template />
+                </Route>
+                <Route path="/">
+                    <Home />
+                </Route>
+            </Switch>
+        </Router>
+    )
 }
 
-export default Consumer(App);
+export default App;

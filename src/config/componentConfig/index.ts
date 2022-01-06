@@ -6,24 +6,17 @@ import getPlaceholderConfig from "./placeholderConfig";
  * 按分类返回组件配置数据
  * @param theme 主题
  */
-const componentConfig = (theme: string='default'):Array<any> => {
+const componentConfig = (theme: string='light'):Array<any> => {
     return [{
         type: 'basisComponent',
         name: '基础组件',
-        components: [{
-            type: 'Image',
-            name: '图片',
-            config: getImageConfig(theme)
-        },{
-            type: 'Title',
-            name: '标题',
-            config: getTitleConfig(theme)
-        }, {
-            type: 'Placeholder',
-            name: '空白占位',
-            config: getPlaceholderConfig(theme)
-        }]
-    }, {
+        show: true,
+        components: [
+            getImageConfig(theme),
+            getTitleConfig(theme),
+            getPlaceholderConfig(theme)
+        ]
+    }, /*{
         type: 'businessComponent',
         name: '业务组件',
         components: [{
@@ -37,7 +30,7 @@ const componentConfig = (theme: string='default'):Array<any> => {
             type: 'redEnvelope',
             name: '红包'
         }]
-    }]
+    }*/]
 }
 
 /**
