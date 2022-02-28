@@ -1,6 +1,6 @@
 import { ComponentConfig } from '../commonType'
 import {ImageUserConfig, Content} from './imageType'
-import { CUSTOMIZE_LINK_WEBVIEW_CODE } from '../../../utils/const'
+import { CUSTOMIZE_LINK_WEBVIEW_CODE } from '@/utils/const'
 
 const content:Array<Content> = [{
     image: '',
@@ -21,10 +21,10 @@ const content:Array<Content> = [{
 
 
 const userConfig:ImageUserConfig = {
+    itemId: '',             // 组件唯一id标识
     style: 'slider1',      // 样式
     pagination: true,       // 是否显示页码
     content,                // 商品配置
-    // slider: '',
     blank: '6',             // 图片间隙
     padding: false,         // 是否显示边距
     showDetail: false,       // 显示标题和价格
@@ -41,7 +41,7 @@ const imageConfig:ComponentConfig<ImageUserConfig> = {
 }
 
 function getImageConfig(theme:string = 'light') {
-    return imageConfig
+    return imageConfig;
 }
 
 export default getImageConfig;

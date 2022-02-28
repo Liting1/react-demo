@@ -56,6 +56,40 @@ export function getQuery(key?:string){
     return params;
 }
 
+/**
+ * 快速设置静态资源地址
+ * @param url
+ */
 export function u(url:string):string {
     return `static/img/${url}`;
+}
+
+/**
+ * 数据比较
+ * @param prevProps
+ * @param nextProps
+ */
+export function propsAreEqual(prevProps:Record<string, any>, nextProps:Record<string, any>){
+    return !Object.keys(nextProps).some((item:string) => {
+        const p = nextProps[item], q = prevProps[item];
+        if(typeof p === 'object') {
+            return JSON.stringify(p) !== JSON.stringify(q);
+        } else {
+            return p !== q;
+        }
+    });
+}
+
+/**
+ * 设置根字体大小
+ * @param width
+ */
+export function setRem(width = 750){
+    try {
+        const clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+        const html = document.getElementsByTagName('html')[0];
+        html.style.fontSize = clientWidth / width * 100 + 'px';
+    } catch (e) {
+        console.log('setRem',e);
+    }
 }

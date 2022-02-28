@@ -3,7 +3,7 @@
 /**
  * server
  */
-class Server<M = any> {
+class Service<M = any> {
 	protected model!: M;
 
 	/**
@@ -16,4 +16,4 @@ class Server<M = any> {
 	}
 }
 
-export default Server;
+export default Service;

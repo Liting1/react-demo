@@ -1,21 +1,17 @@
-/**
- * image 组件的数据模型
- */
+import {Model} from "@/components/MVC"
+import type {ImageUserConfig as Props} from '@/config/componentConfig/imageConfig/imageType';
 
-class ImageModule {
-    private props: any;
+interface State {
+    styleList:Array<{
+        pic:string;
+        desc:string;
+        style:string
+    }>
+}
 
-    setProps(props: any){
-        this.props = props;
-    }
-
-    init(props:any) {
-        this.setProps(props);
-        return this;
-    }
-
-    get styleList(): any[] {
-        return [{
+class ImageSettingModel extends Model<Props, State> {
+    state = {
+        styleList: [{
             pic: 'img_com_setting_01.png',
             desc: '轮播图（大）',
             style: 'slider1',
@@ -31,9 +27,16 @@ class ImageModule {
             pic: 'img_com_setting_04.png',
             desc: '卡片-横向滑动2',
             style: 'slider4',
-        }];
+        }, {
+            pic: 'img_com_setting_05.png',
+            desc: '每行1列',
+            style: 'slider5'
+        }]
     }
 
+    get styleList(): any[] {
+        return this.state.styleList
+    }
     // 是否展示页码开关
     get showPage():boolean {
         const { style } = this.props;
@@ -47,38 +50,33 @@ class ImageModule {
     }
 
     // 是否显示展示价格开关
-    get showPrice():boolean {
+    get showPrice() {
         const {style} = this.props;
         return style === 'slider2' || style === 'slider3';
     }
 
-
-
-    get showDetail(): boolean {
-        const { showDetail } = this.props;
-        return showDetail;
+    get showDetail() {
+        return this.props.showDetail;
     }
 
     get itemId(){
         return this.props.itemId;
     }
 
-    get pagination():boolean{
+    get pagination(){
         return this.props.pagination;
     }
 
     get style(){
         return this.props.style;
     }
-
-    get test(): Promise<any>{
-        return new Promise((resolve, reject) => {
-            setTimeout(()=>{
-                resolve(1);
-            },100)
-        });
-    }
-
 }
 
-export default ImageModule;
+export type {
+    Props,
+    State
+}
+
+export default ImageSettingModel;
+
+

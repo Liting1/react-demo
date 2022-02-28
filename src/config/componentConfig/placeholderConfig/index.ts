@@ -4,16 +4,14 @@ interface PlaceholderUserConfig {
     height: number
 }
 
-const placeholderUserConfig:PlaceholderUserConfig = {
-    height: 15
-}
-
 const placeholderConfig:ComponentConfig<PlaceholderUserConfig> = {
     type: 'Placeholder',
     name: '空白占位',
     icon: 'BorderOutlined',
     scene: 3,
-    userConfig: placeholderUserConfig
+    userConfig: {
+        height: 15
+    }
 }
 
 function getPlaceholderConfig(theme:string = 'light') {

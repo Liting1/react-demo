@@ -1,3 +1,5 @@
+import baseConfig from "@/config/componentConfig/BaseConfig";
+
 export interface Data {
     theme: string       // 主题配置
     activeModule: {     // 当前选中组件配置
@@ -9,6 +11,7 @@ export interface Data {
     modules: Array<any>         // 所有组件数据
     previewEle: Element | null  // preview 元素,用于获取页面高度
     insertIndex: number;    // 插入组件的索引
+    baseConfig: typeof baseConfig  // 基本信息
 }
 
 const data:Data = {
@@ -22,6 +25,7 @@ const data:Data = {
     modules: [],
     previewEle: null,
     insertIndex: 0,
+    baseConfig
 }
 
 export default data;

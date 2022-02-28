@@ -1,13 +1,11 @@
 import React from "react";
-import { ViewType } from "@/type";
+import {ViewType} from "@/components/MVC";
 import Model from "../Model";
-import Icon from "../../../Icon";
+import Icon from "@/components/Icon";
 import "../css/index.sass";
 
 
-
-
-const View:ViewType<Model> = ({model}) => {
+const SideItemView:ViewType<Model> = ({model}) => {
     const { className, onClick, icon, name } = model;
     return (<li className="side-bar-item">
         <div className={className} onClick={onClick}>
@@ -18,4 +16,4 @@ const View:ViewType<Model> = ({model}) => {
 }
 
 
-export default View;
+export default SideItemView;

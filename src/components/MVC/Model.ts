@@ -3,8 +3,8 @@
 /**
  * module
  */
-class Model<T = any, S = any> {
-	protected props!: T;
+class Model<P = any, S = any> {
+	protected props!: P;
 
 	protected state!: S;
 

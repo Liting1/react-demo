@@ -1,12 +1,14 @@
 import getImageConfig from "./imageConfig";
 import getTitleConfig from "./titleConfig";
 import getPlaceholderConfig from "./placeholderConfig";
+import getTextConfig from "./textConfig";
+import getBackgroundConfig from "./backgroundConfig";
 
 /**
  * 按分类返回组件配置数据
  * @param theme 主题
  */
-const componentConfig = (theme: string='light'):Array<any> => {
+const componentConfig = ({theme='light'}):Array<any> => {
     return [{
         type: 'basisComponent',
         name: '基础组件',
@@ -14,7 +16,9 @@ const componentConfig = (theme: string='light'):Array<any> => {
         components: [
             getImageConfig(theme),
             getTitleConfig(theme),
-            getPlaceholderConfig(theme)
+            getPlaceholderConfig(theme),
+            getTextConfig(theme),
+            getBackgroundConfig(theme)
         ]
     }, /*{
         type: 'businessComponent',
@@ -35,10 +39,10 @@ const componentConfig = (theme: string='light'):Array<any> => {
 
 /**
  * 返回组件类型与组件数据的映射关系
- * @param theme
+ * @param options
  */
-export const componentMap = (theme: string): Map<any,any> => (
-    componentConfig(theme)
+export const componentMap = (options:any): Map<any,any> => (
+    componentConfig(options)
         .reduce(
             (a, b) => b.components.reduce(
                 (c: any, d: any) => c.set(d.type, d), a),

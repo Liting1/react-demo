@@ -6,17 +6,17 @@
 class Controller<M = any, S = any> {
 	protected model!: M;
 
-	protected server!: S;
+	protected service!: S;
 
 	/**
 	 * 初始化
 	 *
 	 * @param {object} model m
-	 * @param {object} server s
+	 * @param {object} service s
 	 */
-	init(model: M, server: S) {
+	init(model: M, service: S) {
 		this.model = model;
-		this.server = server;
+		this.service = service;
 	}
 }
 export default Controller;

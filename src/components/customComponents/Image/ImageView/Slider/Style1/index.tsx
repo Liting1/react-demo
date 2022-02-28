@@ -25,7 +25,6 @@ function Style1(props:Props):JSX.Element{
             }
         })
     }
-    console.log(1111111, props);
 
     return (
         <div className="image-slider-1">

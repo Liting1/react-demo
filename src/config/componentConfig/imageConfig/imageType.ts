@@ -17,6 +17,7 @@ export interface Content {
 }
 
 export interface ImageUserConfig {
+    itemId: string,
     style: string
     pagination: boolean
     content: Array<Content | object>

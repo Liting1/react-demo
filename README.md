@@ -18,6 +18,9 @@
 ### 约定
 + 组件类型是用大写字母开头
     + 例如： Title, TabBar
+    + View层组件命名为 TitleView TabBarView
+    + Controller层类名为 TitleController TabBarController
+    + Server层类名为 TitleServer TabBarServer
 
 
 ## 项目目录结构

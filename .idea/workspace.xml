@@ -2,123 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8dbed7d-c954-4879-a295-e6843f92d5fa" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/babelTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/img/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/img/img_com_setting_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/img/img_com_setting_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/img/img_com_setting_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/img/img_com_setting_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChooseProducts/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChooseProducts/style/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Icon/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SideActionBar/SideItem/Model/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SideActionBar/SideItem/View/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SideActionBar/SideItem/css/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SideActionBar/SideItem/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SideActionBar/SideItem/type/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/baseComponents/IF/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/baseComponents/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageControl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageModule.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style1/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style1/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style2/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style2/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style3/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style3/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style4/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style4/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/style/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/HeaderSetting/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/HeaderSetting/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/ImageControl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/ImageModule.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/ImageView/ListItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/ImageView/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/style/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/InsertModule/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/InsertModule/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/PlaceholderSetting/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/TitleSetting/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/baseComponents/SettingTitle/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/baseComponents/SettingTitle/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/componentConfig/headerConfig/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/componentConfig/imageConfig/imageType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Compatibility/Module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ComponentDataInit/Transform.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/ComponentDataInit/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/FieldsVerify/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/SaveDataTransform/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/Edit/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/Edit/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/Home/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/Template/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/RedPacket/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/img_com_setting_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BottomBar/Controller/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BottomBar/Model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BottomBar/View/index.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BottomBar/View/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BottomBar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HOC/Guard/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/baseComponents/UploadFile/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Background/View/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Background/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/Controller/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style5/index.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style5/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Image/Model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Text/index.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponents/Text/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/BackgroundSetting/View/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/BackgroundSetting/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/Controller/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/Model/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/TextSetting/index.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/TextSetting/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/componentConfig/BaseConfig/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/componentConfig/backgroundConfig/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/componentConfig/textConfig/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/function.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Test/index.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Test/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/img/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/img/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.sass" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/customPageApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/customPageApi.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Drag/Item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Drag/Item/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Drag/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Drag/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Drag/item.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Drag/Item/index.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icon/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icon/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MVC/Controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MVC/Controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MVC/Model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MVC/Model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MVC/Server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MVC/Service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MVC/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MVC/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Preview/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Preview/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Preview/preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Preview/preview.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Preview/preview.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Preview/preview.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Setting/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Setting/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Setting/setting.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Setting/setting.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideActionBar/SideItem/View/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideActionBar/SideItem/View/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SideActionBar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideActionBar/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SideActionBar/sideActionBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideActionBar/sideActionBar.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideActionBar/sideActionBar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideActionBar/sideActionBar.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customComponents/Image/ImageControl.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customComponents/Image/ImageModule.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style1/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/Style1/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/Slider/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponents/Image/ImageView/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/customComponents/Image/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponents/Image/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/customComponents/Title/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponents/Title/index.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/customComponents/Title/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponents/Title/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customComponents/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponents/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customComponentsSetting/HeaderSetting/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/HeaderSetting/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/ImageControl.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/ImageModule.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/ImageView/ListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/View/ListItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/ImageView/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/View/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/ImageSetting/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/customComponentsSetting/PlaceholderSetting/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/PlaceholderSetting/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/customComponentsSetting/TitleSetting/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/TitleSetting/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/customComponentsSetting/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customComponentsSetting/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/FieldsVerifyConfig/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/compatibilityConfig/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Compatibility/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/componentConfig/imageConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/componentConfig/imageConfig/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/componentConfig/headerConfig/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/componentConfig/imageConfig/imageType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/componentConfig/imageConfig/imageType.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/componentConfig/imageConfig/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/componentConfig/imageConfig/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config/componentConfig/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/componentConfig/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/componentConfig/placeholderConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/componentConfig/placeholderConfig/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/componentConfig/titleConfig.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/componentConfig/titleConfig/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/componentDataInitConfig/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/reset.sass" beforeDir="false" afterPath="$PROJECT_DIR$/paths.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/componentConfig/placeholderConfig/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/componentConfig/placeholderConfig/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/Edit/index.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Edit/index.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/Edit/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Edit/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/Template/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Template/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/index.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/actions/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/data/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/data/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/getters/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/getters/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/type/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/type/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Product/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Product/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/common.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/common.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,8 +89,8 @@
         <option value="Less File" />
         <option value="JavaScript File" />
         <option value="SCSS File" />
-        <option value="TypeScript File" />
         <option value="Sass File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -170,6 +127,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="E:\web\react\react-demo4\node_modules\typescript\lib" />
+    <property name="ts.rename.search.for.dynamic.occurrences" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -195,6 +153,7 @@
         <script value="start" />
       </scripts>
       <node-interpreter value="project" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -285,6 +244,20 @@
       <workItem from="1635511019595" duration="858000" />
       <workItem from="1635518417922" duration="787000" />
       <workItem from="1641298303734" duration="8596000" />
+      <workItem from="1641697704854" duration="6169000" />
+      <workItem from="1642313699739" duration="3061000" />
+      <workItem from="1644412025411" duration="15000" />
+      <workItem from="1645196770432" duration="19293000" />
+      <workItem from="1645518641492" duration="230000" />
+      <workItem from="1645518999252" duration="61000" />
+      <workItem from="1645522753729" duration="72000" />
+      <workItem from="1645625566661" duration="2543000" />
+      <workItem from="1645685724512" duration="164000" />
+      <workItem from="1645706173186" duration="8902000" />
+      <workItem from="1645779759979" duration="6560000" />
+      <workItem from="1645799015483" duration="2754000" />
+      <workItem from="1645861233627" duration="8427000" />
+      <workItem from="1646051928787" duration="6680000" />
     </task>
     <servers />
   </component>

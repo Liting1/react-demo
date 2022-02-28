@@ -7,16 +7,23 @@ import {
 import Edit from "./page/Edit";
 import Home from "./page/Home";
 import Template from "./page/Template";
+import Test from "./page/Test";
+import Guard from "@/components/HOC/Guard";
 
 const App = () => {
     return (
         <Router>
             <Switch>
+                <Route path="/Test">
+                    <Test />
+                </Route>
                 <Route path="/Edit">
                     <Edit />
                 </Route>
                 <Route path="/Template">
-                    <Template />
+                    <Guard>
+                        <Template />
+                    </Guard>
                 </Route>
                 <Route path="/">
                     <Home />

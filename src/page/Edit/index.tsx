@@ -3,10 +3,11 @@ import { Consumer } from '@/store'
 import SideActionBar from "@/components/SideActionBar";
 import Preview from "@/components/Preview";
 import Setting from "../../components/Setting";
+import BottomBar from "@/components/BottomBar";
 // import Main from "./main";
 import './index.sass';
-import { getCustomizeSnapshot } from '../../api/customPageApi';
-import { getQuery } from '../../utils'
+// import { getCustomizeSnapshot } from '../../api/customPageApi';
+import { getQuery } from '@/utils'
 
 interface Props {
     store: any
@@ -55,9 +56,12 @@ class Edit extends React.PureComponent<Props, State> {
         // 暂时测试写法
         return (
             <div className="edit">
-                <SideActionBar />
-                <Preview />
-                <Setting />
+                <div className="edit-container">
+                    <SideActionBar />
+                    <Preview />
+                    <Setting />
+                </div>
+                <BottomBar data={this.props.store}/>
             </div>
         );
     }

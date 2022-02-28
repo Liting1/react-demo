@@ -5,7 +5,9 @@ import {
     FontSizeOutlined,
     BorderOutlined,
     CloseCircleOutlined,
-    PlusCircleOutlined
+    PlusCircleOutlined,
+    FormOutlined,
+    BgColorsOutlined
 } from '@ant-design/icons';
 
 interface Props {
@@ -30,6 +32,10 @@ const Icon = (props:Props) => {
             return <CloseCircleOutlined {...iconProps} />
         case 'PlusCircleOutlined':
             return <PlusCircleOutlined {...iconProps} />
+        case 'FormOutlined':
+            return <FormOutlined {...iconProps} />
+        case 'BgColorsOutlined':
+            return <BgColorsOutlined {...iconProps} />
         default:
             return <LoadingOutlined {...iconProps} />
     }

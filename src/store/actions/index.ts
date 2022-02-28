@@ -15,7 +15,7 @@ const actions = {
      */
     setActiveModule(setStore: any, data: object): void{
         setStore((store: any) => ({
-            activeModule: {
+                activeModule: {
                 ...store.activeModule,
                 ...data
                 }

@@ -1,5 +1,22 @@
-.component-title
+
+
+@function toRem($px, $env)
+  @if($env == 'c')
+    @return $px * 0.01rem
+  @else
+    @return $px * 1px
+
+
+@mixin component-title($env)
   color: var(--Primary)
-  padding: 0 10px
+  padding: 0 toRem(10, $env)
   h3
     margin-bottom: 0
+
+
+.component-title[data-env='eb'],
+.component-title
+  @include component-title('eb')
+
+.component-title[data-env='c']
+  @include component-title('c')

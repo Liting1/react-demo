@@ -1,38 +1,11 @@
 import React from "react";
-import ImageView from "./ImageView";
-// import ImageControl from "./ImageControl";
-import ImageModule from "./ImageModule";
+import View from "./ImageView";
+import Controller from './Controller';
+import MVC from "@/components/MVC";
+import {propsAreEqual} from "@/utils"
+import Model from './Model';
 
-interface Props {
-}
+const Image = MVC({Model, Controller}, View);
 
-interface State {
+export default React.memo(Image, propsAreEqual);
 
-}
-const imageModule = new ImageModule();
-
-
-
-class Image extends React.Component<Props, State> {
-    shouldComponentUpdate(nextProps: Readonly<Props>, nextState: Readonly<State>, nextContext: any): boolean {
-        return Object.keys(nextProps).some((item:string) => {
-            // @ts-ignore
-            const p = nextProps[item], q = this.props[item];
-            if(typeof p === 'object') {
-                return JSON.stringify(p) !== JSON.stringify(q);
-            } else {
-                return p !== q;
-            }
-        });
-    }
-
-    render() {
-        const { style, pagination } = imageModule.init(this.props);
-        return <ImageView
-            style={style}
-            pagination={pagination}
-        />
-    }
-}
-
-export default Image;

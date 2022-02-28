@@ -3,29 +3,18 @@ import SettingTitle from "../../baseComponents/SettingTitle";
 import ListItem from "./ListItem";
 import { Form, Switch, Select } from 'antd';
 import { IF } from '../../../baseComponents';
-import { mapAction } from '../../../../store';
+import { mapAction } from '@/store';
+import {ViewType} from "@/components/MVC";
+import Model from '../Model'
 import '../style/index.sass';
-
-interface Props {
-    showPrice: boolean
-    showDetail: boolean
-    showPage: boolean
-    styleList: any[]
-    itemId: string
-    showDetailHandle: (val:boolean) => void
-    pagination:boolean
-    style: string
-}
-
-
 
 /**
  * 展示层组件为一个纯函数，无状态组件
  * @param props
  * @constructor
  */
-function ImageView(props:Props):JSX.Element {
-    const { styleList, showPage, itemId, pagination, showDetail, showPrice, style } = props;
+const ImageView:ViewType<Model> = ({model}) => {
+    const { styleList, showPage, itemId, pagination, showDetail, showPrice, style } = model;
     const setModule = mapAction('setModule').bind(null, itemId);
     return <div className="image-setting">
         <SettingTitle>图片</SettingTitle>
@@ -33,7 +22,7 @@ function ImageView(props:Props):JSX.Element {
             <p className="image-setting-style">选择样式</p>
             <ul className="image-setting-box">
                 {styleList.map(
-                    (item, idx) => (
+                    (item:any, idx:number) => (
                         <ListItem
                         desc={item.desc}
                         pic={item.pic}
@@ -98,15 +87,15 @@ function ImageView(props:Props):JSX.Element {
 
 
 
-ImageView.defaultProps = {
-    showPrice: false,
-    showDetail: false,
-    showPage: false,
-    styleList: [],
-    itemId: '',
-    showDetailHandle: (val: boolean) => {},
-    pagination: true,
-    style: 'slider1'
-}
+// ImageView.defaultProps = {
+//     showPrice: false,
+//     showDetail: false,
+//     showPage: false,
+//     styleList: [],
+//     itemId: '',
+//     showDetailHandle: (val: boolean) => {},
+//     pagination: true,
+//     style: 'slider1'
+// }
 
 export default ImageView;

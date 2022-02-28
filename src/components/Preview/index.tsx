@@ -2,8 +2,8 @@ import React from "react";
 import {Consumer, mapAction} from "../../store";
 import CustomComponents from '../customComponents';
 import initData from '../../main/ComponentDataInit';
-import {Uppercase} from '../../utils/common';
-import {u} from '../../utils';
+import {Uppercase} from '@/utils/common';
+import {u} from '@/utils';
 import Drag from "../Drag";
 import './preview.sass'
 

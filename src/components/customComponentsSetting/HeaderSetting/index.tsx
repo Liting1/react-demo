@@ -10,6 +10,10 @@ interface state {
 }
 
 class HeaderSetting extends React.PureComponent<state, props> {
+    componentDidMount() {
+        console.log('header', this.props)
+    }
+
     render() {
         return <div className="header-setting">
             <SettingTitle>基本信息</SettingTitle>
