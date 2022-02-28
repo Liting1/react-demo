@@ -13,7 +13,8 @@
 
 ## 开发规范
 + 请按照项目目录结构进行添加文件及文件夹
-+ 具体规范请参考地址 https://git.zhiketong.net/Web/eslint-config-zkt
+
+[comment]: <> (+ 具体规范请参考地址 https://git.zhiketong.net/Web/eslint-config-zkt)
 
 ### 约定
 + 组件类型是用大写字母开头
